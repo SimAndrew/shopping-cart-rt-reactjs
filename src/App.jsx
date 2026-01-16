@@ -1,5 +1,11 @@
+import Navbar from './components/Navbar.jsx';
+
 function App() {
-	return <h2>Hello Vite + React!</h2>;
+	return (
+		<main>
+			<Navbar />;
+		</main>
+	);
 }
 
 export default App;
